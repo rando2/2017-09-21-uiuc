@@ -100,7 +100,7 @@ We expect the skills covered to be particularly useful to life scientists.
   address.
 -->
 {% if page.latlng %}
-<p id="where">
+<p id="where" style="padding-left:20px;">
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
@@ -116,7 +116,7 @@ We expect the skills covered to be particularly useful to life scientists.
   This block displays the date and links to Google Calendar.
 -->
 {% if page.humandate %}
-<p id="when">
+<p id="when" style="padding-left:20px;">
   <strong>When:</strong>
   {{page.humandate}}.
   {% include workshop_calendar.html %}
@@ -128,7 +128,7 @@ We expect the skills covered to be particularly useful to life scientists.
 
   Modify the block below if there are any special requirements.
 -->
-<p id="requirements">
+<p id="requirements" style="padding-left:20px;">
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
@@ -149,7 +149,7 @@ We expect the skills covered to be particularly useful to life scientists.
   Modify the block below if there are any barriers to accessibility or
   special instructions.
 -->
-<p id="accessibility">
+<p id="accessibility" style="padding-left:20px;">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
   The workshop organisers have checked that:
@@ -172,7 +172,7 @@ We expect the skills covered to be particularly useful to life scientists.
 
   Display the contact email address set in the configuration file.
 -->
-<p id="contact">
+<p id="contact" style="padding-left:20px;">
   <strong>Contact</strong>:
   Please email
   {% if page.contact %}
